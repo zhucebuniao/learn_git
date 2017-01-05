@@ -8,3 +8,8 @@ git tracks changes of files.
 4.git add
 5.git commit
 
+#---------------------------------#
+create a new branch:
+git checkout -b dev = git branch dev
+                      git checkout dev
+
