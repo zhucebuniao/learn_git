@@ -1,0 +1,47 @@
+   38  sudo apt-get install git
+   39  git --version
+
+  101  mkdir learn_git
+  103  cd learn_git/
+  104  git init
+  105  ll
+  106  vi readme.txt
+  132  git add readme.txt 
+  133  git commit -m "write a readme file"
+  134  git config --global user.email "shagengcun@163.com"
+  135  git config --global user.name "qxq"
+  136  git commit -m "write a readme file"
+  137  vi readme.txt 
+  138  git status 
+  139  git diff readme.txt
+  140  git add readme.txt 
+  141  git diff readme.txt
+  142  git status 
+  143  git commit -m "add some describe"
+  144  git status 
+  145  git log
+  146  git log --pretty=online
+  147  git log --pretty=oneline
+  148  vi readme.txt 
+  149  git status 
+  150  git add readme.txt 
+  151  git commit -m "add false"
+  152  git status 
+  153  git log --pretty=oneline 
+  154  git log --pretty=short 
+  155  clear
+  156  git log --pretty=oneline 
+  157  git reset --hard HEAD^ 
+  158  cat readme.txt 
+  159  git reset --hard 59d651e
+  160  cat readme.txt 
+  161  git reflog 
+  162  cd Desktop/
+  163  ll
+  164  git
+  165  git status 
+  166  ll
+  167  cd learn_git/
+  168  ll
+  169  git status 
+  171  history > cmd.txt
