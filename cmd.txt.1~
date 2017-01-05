@@ -1,0 +1,171 @@
+    1  df -h
+    2  glib
+    3  python3
+    4  cc
+    5  cc --version
+    6  ls
+    7  cd Desktop/
+    8  ls
+    9  mkdir c_workspace
+   10  cd c_workspace/
+   11  vim 
+   12  apt-get install vim
+   13  su
+   14  su root
+   15  cd ../..
+   16  ls
+   17  su
+   18  clear
+   19  ifconfig
+   20  python
+   21  cd /etc/apt/
+   22  ll
+   23  cat sources.list
+   24  clear
+   25  sudo gedit sources.list
+   26  ll
+   27  vim sources.bak 
+   28  vi sources.bak 
+   29  clear
+   30  sudo gedit sources.list
+   31  clear
+   32  less sources.list
+   33  git
+   34  sudo apt-get install git
+   35  clear
+   36  sudo apt-get update
+   37  git
+   38  sudo apt-get install git
+   39  git --version
+   40  git
+   41  pwd
+   42  df -h
+   43  du -sh
+   44  du -h /
+   45  clear
+   46  du 
+   47  clear
+   48  man du
+   49  du -h
+   50  clear
+   51  df -h
+   52  cd /dev/
+   53  ll
+   54  clear
+   55  ll
+   56  cd /
+   57  ll
+   58  df -h
+   59  clear
+   60  du -mh
+   61  clear
+   62  pwd
+   63  ll
+   64  cd usr/
+   65  ll
+   66  du -h
+   67  clear
+   68  du -h /usr/
+   69  clear
+   70  df -h /usr/
+   71  clear
+   72  reset
+   73  df -h /usr/
+   74  cd /home/qxq/
+   75  ll
+   76  cd /usr/
+   77  ll
+   78  cd local/
+   79  ll
+   80  cd /
+   81  ll
+   82  df -h
+   83  df -h /
+   84  clear
+   85  ll
+   86  cd mnt/
+   87  ll
+   88  du -h
+   89  du -sh
+   90  clear
+   91  ll
+   92  cd ..
+   93  ll
+   94  cd opt/
+   95  ll
+   96  cd /home/qxq/
+   97  ll
+   98  ll ..
+   99  cd /home/qxq/Desktop/
+  100  ll
+  101  mkdir learn_git
+  102  ll
+  103  cd learn_git/
+  104  git init
+  105  ll
+  106  vi readme.txt
+  107  ll
+  108  cd .git/
+  109  ll
+  110  cd branches/
+  111  ll
+  112  cd ..
+  113  vi config 
+  114  cd hooks/
+  115  ll
+  116  cd ../info/
+  117  ll
+  118  cd ../objects/
+  119  ll
+  120  cd info/
+  121  ll
+  122  cd ../pack/
+  123  ll
+  124  cd ../../refs/
+  125  ll
+  126  cd tags/
+  127  ll
+  128  cd ../../
+  129  ll
+  130  cd ..
+  131  ll
+  132  git add readme.txt 
+  133  git commit -m "write a readme file"
+  134  git config --global user.email "shagengcun@163.com"
+  135  git config --global user.name "qxq"
+  136  git commit -m "write a readme file"
+  137  vi readme.txt 
+  138  git status 
+  139  git diff readme.txt
+  140  git add readme.txt 
+  141  git diff readme.txt
+  142  git status 
+  143  git commit -m "add some describe"
+  144  git status 
+  145  git log
+  146  git log --pretty=online
+  147  git log --pretty=oneline
+  148  vi readme.txt 
+  149  git status 
+  150  git add readme.txt 
+  151  git commit -m "add false"
+  152  git status 
+  153  git log --pretty=oneline 
+  154  git log --pretty=short 
+  155  clear
+  156  git log --pretty=oneline 
+  157  git reset --hard HEAD^ 
+  158  cat readme.txt 
+  159  git reset --hard 59d651e
+  160  cat readme.txt 
+  161  git reflog 
+  162  cd Desktop/
+  163  ll
+  164  git
+  165  git status 
+  166  ll
+  167  cd learn_git/
+  168  ll
+  169  git status 
+  170  history 
+  171  history > cmd.txt
