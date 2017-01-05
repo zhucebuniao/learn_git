@@ -1,4 +1,6 @@
 git is a distributed version control system.
+git has a mutable index called stage
+git trackes changes
 
 1.make a directory
 2.exec:git init
