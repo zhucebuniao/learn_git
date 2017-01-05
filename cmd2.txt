@@ -3,3 +3,5 @@ local connet to GitHub
 1.create SSH Key;
 2.ssh-keygen -t rsa -C shagengcun@163.com;
 3.add id_rsa.pub to GitHub
+4.git remote add origin git@github.com:zhucebuniao/learn_git.git
+5.git push -u origin master
