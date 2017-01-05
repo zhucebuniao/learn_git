@@ -5,3 +5,5 @@ local connet to GitHub
 3.add id_rsa.pub to GitHub
 4.git remote add origin git@github.com:zhucebuniao/learn_git.git
 5.git push -u origin master
+
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
